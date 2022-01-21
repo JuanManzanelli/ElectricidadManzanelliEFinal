@@ -1,21 +1,19 @@
 
-
 /* Electricidad-Manzanelli */
 *{
     margin: none;
     padding: none;
-    box-sizing: border-box;
+    
     text-decoration: none;
 }
 
+/* Variables */
+$colorEM: rgb(255, 190, 11);
+
 /* Inicio */
 .inicioBody {
-    background: linear-gradient(to left, rgb(238, 219, 109) 40%,black 60% );
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-color: $colorEM;
 }
-
-
 
 
 #novedadesCompras {
@@ -39,7 +37,7 @@
 
 
 .novedadesTitulo {
-    color: rgb(238, 219, 109);   
+    color: $colorEM;   
 }
 
 .clientes {
@@ -49,16 +47,16 @@
 
 .clientes {
     background-repeat: no-repeat;
-    background-color: rgb(238, 219, 109);
+    background-color: $colorEM;
     background-position: center;
 }
 
 
 
 #publicacionEpec .publicacionTitulo {
-    color: rgb(238, 219, 109);
-    display: contents;
-   background-position: center;
+    color: $colorEM;
+    padding: 40px;
+    margin: 10px;
 }
 
 
@@ -85,7 +83,7 @@
 }
 
 .tablaCliente {
-    background-color: rgb(238, 219, 109);
+    background-color: $colorEM;
     color: black;
 }
 
@@ -93,18 +91,18 @@
 
 #comprasTodo h2 {
     margin: 45px 20px;
-    color: rgb(238, 219, 109);
+    color: $colorEM;
 }
 #comprasTodo h3 {
     margin: 25px 20px;
-    color: rgb(238, 219, 109);
+    color: $colorEM;
 }
 #comprasTodo .imagenesCompras {
     margin: 45px 25px;
 }
 #comprasTodo h4 {
     margin: 45px 10px;
-    color: rgb(238, 219, 109);
+    color: $colorEM;
 }
 
 /* Novedades */
@@ -119,7 +117,7 @@
 .wifi {
     
     background-repeat: no-repeat;
-    background-color: rgb(238, 219, 109);
+    background-color: $colorEM;
     background-position: center;
 }
 .distan {
@@ -130,7 +128,7 @@
 .distan {
     margin: 90px;
     background-repeat: no-repeat;
-    background-color: rgb(238, 219, 109);
+    background-color: $colorEM;
     background-position: center;
 }
 
@@ -155,12 +153,12 @@
 /* Proveedores */
 
 #prove .completo {
-    background-color: rgb(238, 219, 109);
+    background-color: $colorEM;
     width: 1535px;
     height: 535px;
 }
 #prove .completo h2 {
-    background-color: rgb(238, 219, 109);
+    background-color: $colorEM;
     color: white;
     margin: 0 20px;
 }
